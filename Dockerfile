@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.8.0-cuda10.2-cudnn7-devel
+FROM pytorch/pytorch:1.8.1-cuda10.2-cudnn7-devel
 
 RUN apt-get update && apt-get install -y libgl1-mesa-glx libpci-dev curl nano psmisc zip git && apt-get --fix-broken install -y
 
